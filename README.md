@@ -8,6 +8,8 @@ The purpose of this project was to give Louise data on the outcomes of campaigns
 
 ### Analysis of Outcomes Based on Launch Date
 In this section, I started by usting the YEARS function in a new column based on my Date Created Conversions column. This will be used later when making a pivot table. The pivot table is filtered by Category and by Years with the rows being Date Created Conversion. The columns is Outcomes while the Values is Count of Outcomes. I was able to filter the rows column to show months instead of years and I was able to make a chart showing my data.
+![Theater Outcomes](Images/Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 In this section, I used COUNTIFS function to gather the totals of the plays campaigns. These totals included the Successful, Failed, and Canceled campaigns based off their funding goals. This was able to show which goal amount had a higher success rate and which amount had a higher fail rate.
 ![Outcomes vs Goals Plot](Images/Outcomes_vs_Goals.png)
